@@ -76,6 +76,14 @@ body {
     flex-direction: row;
 }
 
+.featured-image:hover {
+    transform: scale(1.01);
+}
+
+.project-image:hover {
+    transform: scale(1.01);
+}
+
 /* mobile viewport styles */
 @media screen and (max-width: 576px) {
     .nav-container {
@@ -86,6 +94,10 @@ body {
     .nav-link-container {
       flex-direction: column;
       align-items: center;
+    }
+
+    .projects-container {
+        flex-direction: column;
     }
   }
   
