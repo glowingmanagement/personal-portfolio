@@ -9,7 +9,7 @@
     <title>Josh Holmes Portfolio</title>
 </head>
 <body>
-    <header>
+    <header id="home">
         <!-- Navigation -->
         <nav class="nav-container">
             <a href="#projects" class="nav-link">My Projects</a>
@@ -111,11 +111,11 @@
         <!-- About Me Section -->
         <section id="about-me" class="about-me">
             <h2 class="section-heading">About Me</h2>
-            <div class="section-content about-me-content">
+            <div class="section-content about-me-container">
                 <div>
                     <img src="./assets/images/interests-image.png" src="Josh playing guitar"/>
                 </div>
-                <div>
+                <div class="about-me-content">
                     <h3>Personal Statement</h3>
                     <p>I am a very hard-working and self motivated individual who is keen to learn and develop skills within a professional environment.
                         Since leaving uni, I have spent my time working in various areas of the music industry to gain as much knowledge and experience as possible. Now, I am looking to create a sustainable career, ideally in the theatre world.</p>
@@ -133,21 +133,37 @@
                 
             </div>
         </section>
-        <!-- Contact Section -->
-        <section id="contact" class="contact">
-            <h2 class="section-heading">Contact Me</h2>
-            <div class="contact-icons">
-                <i class="fa-solid fa-envelope"></i>
-                <i class="fa-solid fa-phone"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-solid fa-note-sticky"></i>
-            </div>
+
         </section>
     </main>
     <!-- Footer Section -->
     <footer>
-
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="contact-icons">
+                <i class="fa-solid fa-envelope contact-item"></i>
+                <i class="fa-solid fa-phone contact-item"></i>
+                <i class="fa-brands fa-linkedin-in contact-item"></i>
+                <i class="fa-brands fa-github contact-item"></i>
+                <i class="fa-solid fa-note-sticky contact-item"></i>
+            </div>
+        </section>
+        <div>
+            <ul class="footer-list">
+                <li class="footer-list-item">
+                    <a class="footer-link" href="#home">Home</a>
+                </li>
+                <li class="footer-list-item">
+                    <a class="footer-link" href="#projects">My Projects</a>
+                </li>
+                <li class="footer-list-item">
+                    <a class="footer-link" href="#experience">Work Experience</a>
+                </li>
+                <li class="footer-list-item">
+                    <a class="footer-link" href="#about-me">About Me</a>
+                </li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>

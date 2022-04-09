@@ -122,11 +122,15 @@ h3 {
 }
 
 /* About Me */
-.about-me-content {
+.about-me-container {
     display: flex;
     flex-direction: row;
     width: 75%;
     margin: auto;
+}
+
+.about-me-content {
+    padding: 20px;
 }
 
 .featured-image:hover {
@@ -140,8 +144,40 @@ h3 {
 
 /* Contact Section */
 .contact-icons {
-    text-align: center;
     font-size: 30px;
+    padding-top: 20px;
+}
+
+.contact-item {
+    padding: 10px;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #66BFBF;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-list {
+    list-style: none;
+    margin-bottom: auto;
+}
+
+.footer-list-item {
+    padding-top: 5px;
+}
+
+.footer-link {
+    width: 100%;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-link:hover {
+    color: #414141;
 }
 
 
