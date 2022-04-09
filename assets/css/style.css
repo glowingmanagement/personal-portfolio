@@ -42,27 +42,33 @@ body {
 
 /* Main Section */
 
-.section-container {
-    display: flex;
-    flex-direction: row;
-}
-
-.section-title {
-    border-width: 0 3px 0 0;
-    border-style: solid;
-    border-color: #023047;
-}
-
-.section-content {
-    flex-grow: 2;
-    padding-left: 10px;
-}
 
 .section-heading {
     text-align: center;
 }
 
+/* Projects */
+.projects-container {
+    display: flex;
+    flex-direction: row;
+}
 
+.featured-project {
+    text-align: center;
+}
+
+.featured-image {
+    width: 80%;
+}
+
+.project-card {
+    padding-left: 20px;
+    text-align: center;
+}
+
+.project-image {
+    width: 80%;
+}
 
 /* About Me */
 .about-me-content {
