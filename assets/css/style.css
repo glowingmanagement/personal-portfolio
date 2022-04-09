@@ -88,6 +88,7 @@ h3 {
 .experience-card {
     width: 75%;
     display: flex;
+    flex-direction: row;
     margin: auto;
     text-align: center;
     padding: 10px;
@@ -157,6 +158,10 @@ h3 {
     }
 
     .projects-container {
+        flex-direction: column;
+    }
+
+    .experience-card {
         flex-direction: column;
     }
   }
