@@ -1,0 +1,14 @@
+
+
+/* Nav Bar */
+.nav-bar {
+    display: flex;
+}
+
+.nav-name {
+    flex-grow: 2;
+}
+
+.nav-links {
+    margin: auto;
+}
