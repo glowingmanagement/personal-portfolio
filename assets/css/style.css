@@ -1,22 +1,30 @@
 
 body {
     margin: 0;
-    font-family: "Dancing Script", cursive;
-    font-family: "Josefin Sans", sans-serif;
-    font-family: "Lato", sans-serif;
-    font-family: "Poppins", sans-serif;
-    font-family: "Roboto", sans-serif;
-    font-family: "Roboto Condensed", sans-serif;
-    font-family: "Smokum", cursive;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
+header {
+    background-color: #fff;
+}
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: #43afaf;
+    font-weight: normal;
+    padding-bottom: 10px
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
 
 /* Nav Bar */
 .nav-container {
     display: flex;
-    background-color: #023047;
+    background-color: #E4F9F5;
     flex-direction: row;
     justify-content: center;
     padding: 10px;
@@ -24,14 +32,14 @@ body {
 
 .nav-link {
     padding: 15px;
-    color: #C7EDFF;
+    color: #11999E;
     text-decoration: none;
     font-size: 20px;
 }
 
 
 .nav-link:hover {
-    color: #16b5ff;
+    color: #66BFBF;
 }
 
 /* Profile Image */
@@ -48,6 +56,12 @@ body {
 }
 
 /* Projects */
+
+.projects {
+    background-color: #fff;
+    padding: 10px;
+}
+
 .projects-container {
     display: flex;
     flex-direction: row;
@@ -83,6 +97,15 @@ body {
 .project-image:hover {
     transform: scale(1.01);
 }
+
+
+/* Contact Section */
+.contact-icons {
+    text-align: center;
+    font-size: 30px;
+}
+
+
 
 /* mobile viewport styles */
 @media screen and (max-width: 576px) {
