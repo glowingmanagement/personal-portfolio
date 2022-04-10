@@ -83,6 +83,14 @@ h3 {
     width: 80%;
 }
 
+.featured-image:hover {
+    transform: scale(1.01);
+}
+
+.project-image:hover {
+    transform: scale(1.01);
+}
+
 /* Experience */
 
 .experience-card {
@@ -129,15 +137,6 @@ h3 {
     padding: 20px;
 }
 
-.featured-image:hover {
-    transform: scale(1.01);
-}
-
-.project-image:hover {
-    transform: scale(1.01);
-}
-
-
 /* Contact Section */
 .contact-icons {
     font-size: 30px;
@@ -148,12 +147,22 @@ h3 {
     padding: 10px;
 }
 
+.icon-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-item:hover {
+    color: #414141;
+}
+
 /* Footer Section */
 
 footer {
     background-color: #66BFBF;
     margin: auto;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .footer-list {
@@ -195,6 +204,14 @@ footer {
 
     .experience-image {
         width: 40%;
+    }
+
+    .about-me-image {
+        width: 100%;
+    }
+
+    .about-me-container {
+        flex-direction: column;
     }
   }
   
