@@ -20,17 +20,6 @@ body {
 
 
 
-h2 {
-    font-size: 4rem;
-    color: var(--font-heading-light);
-    font-weight: normal;
-    padding-bottom: 1rem;
-}
-
-h3 {
-    color: var(--font-heading-dark);
-}
-
 /* header styles */
 
 .header {
@@ -79,6 +68,10 @@ h3 {
 
 
 .section-heading {
+    font-size: 4rem;
+    color: var(--font-heading-light);
+    font-weight: normal;
+    padding-bottom: 1rem;
     text-align: center;
 }
 
@@ -120,6 +113,11 @@ h3 {
     transform: scale(1.01);
 }
 
+.subtitle {
+    color: var(--font-heading-dark);
+    font-size: 1.6rem;
+}
+
 /* Experience */
 
 .experience-card {
@@ -138,6 +136,10 @@ h3 {
     margin: auto;
 }
 
+.experience-content p {
+    font-size: 1.3rem;
+}
+
 .experience-image-container {
     margin: auto;
 }
@@ -148,10 +150,12 @@ h3 {
 
 .experience-heading {
     margin: 0.5rem;
+    font-size: 1.6rem;
 }
 
 .company-name {
     font-size: 2.5rem;
+    margin: 0.5rem;
 }
 
 /* About Me */
@@ -164,6 +168,14 @@ h3 {
 
 .about-me-content {
     padding: 2rem;
+}
+
+.about-me-content h3 {
+    font-size: 1.6rem;
+}
+
+.about-me-content p, .about-me-content ul {
+    font-size: 1.3rem;
 }
 
 /* Contact Section */
