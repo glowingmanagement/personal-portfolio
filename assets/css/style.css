@@ -105,11 +105,7 @@ body {
     width: 80%;
 }
 
-.featured-image:hover {
-    transform: scale(1.01);
-}
-
-.project-image:hover {
+.featured-image:hover, .project-image:hover {
     transform: scale(1.01);
 }
 
@@ -117,6 +113,7 @@ body {
     color: var(--font-heading-dark);
     font-size: 1.6rem;
 }
+
 
 /* Experience */
 
