@@ -9,16 +9,28 @@
     <title>Josh Holmes Portfolio</title>
 </head>
 <body>
-    <header id="home">
-        <!-- Navigation -->
-        <nav class="nav-container">
-            <a href="#projects" class="nav-link">My Projects</a>
-            <a href="#experience" class="nav-link">Work Experience</a>
-            <a href="#about-me" class="nav-link">About Me</a>
-            <a href="#contact" class="nav-link">Contact Me</a>
+    <!-- header that contains nav bar -->
+    <header id="home" class="header">
+        <!-- flex container -->
+        <nav class="nav-links-container">
+            <!-- nav links div flex container -->
+            <div class="nav-link">
+                <a href="#projects">My Projects</a>
+            </div>
+            <div class="nav-link">
+                <a href="#experience">Work Experience</a>
+            </div>
+            <div class="nav-link">
+                <a href="#about-me">About Me</a>
+            </div>
+            <div class="nav-link">
+                <a href="#contact">Contact Me</a>
+            </div>
         </nav>
-        <img src= "./assets/images/profile-image.png" alt="Profile image of Josh" class="profile-image"/>
     </header>
+    <div class="banner">
+        <img src= "./assets/images/profile-image.png" alt="Profile image of Josh" class="profile-image"/>
+    </div>
     <main>
         <!-- Projects Section -->
         <section id="projects" class="projects">
@@ -26,10 +38,10 @@
             <!-- Featured Project -->
             <div class="featured-project">
                 <div class="project-card">
-                    <a href="">
-                        <img src="./assets/images/project-1.png" alt="Featured project placeholder" class="featured-image"/>
+                    <a href="https://glowingmanagement.github.io/marketing-agency-refactor/">
+                        <img src="./assets/images/marketing-agency.png" alt="Featured project placeholder" class="featured-image"/>
                     </a>
-                    <h3>Project 1</h3>
+                    <h3>Project 1 - Refactoring HTML and CSS code using semantic elements.</h3>
                 </div>
             </div>
             <!-- Rest of projects -->

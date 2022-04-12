@@ -1,44 +1,72 @@
+:root {
+    --font-heading-light: #43afaf;
+    --font-heading-dark: #11999E;
+    --background-dark: #66BFBF;
+    --background-light: #E4F9F5;
+}
+
+html {
+    font-size: 10px;
+}
 
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-header {
-    background-color: #fff;
+* {
+    box-sizing: border-box;
 }
+
+
 
 h2 {
-    font-size: 40px;
-    color: #43afaf;
+    font-size: 4rem;
+    color: var(--font-heading-light);
     font-weight: normal;
-    padding-bottom: 10px
+    padding-bottom: 1rem;
 }
 
 h3 {
-    color: #11999E;
+    color: var(--font-heading-dark);
 }
 
+/* header styles */
+
+.header {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
 
 /* Nav Bar */
-.nav-container {
+.nav-links-container {
     display: flex;
-    background-color: #E4F9F5;
+    background-color: var(--background-light);
     flex-direction: row;
     justify-content: center;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .nav-link {
-    padding: 15px;
-    color: #11999E;
+    margin: 1.6rem;
+}
+
+.nav-link a {
+    color: var(--font-heading-dark);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 
 .nav-link:hover {
-    color: #66BFBF;
+    color: var(--background-dark);
+}
+
+.banner {
+    margin-top: 6.8rem;
 }
 
 /* Profile Image */
@@ -56,9 +84,10 @@ h3 {
 
 /* Projects */
 
+
 .projects {
     background-color: #fff;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .projects-container {
@@ -75,7 +104,7 @@ h3 {
 }
 
 .project-card {
-    padding-left: 20px;
+    padding-left: 2rem;
     text-align: center;
 }
 
@@ -97,7 +126,7 @@ h3 {
     width: 75%;
     margin: auto;
     text-align: center;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .experience-image {
@@ -118,11 +147,11 @@ h3 {
 }
 
 .experience-heading {
-    margin: 5px;
+    margin: 0.5rem;
 }
 
 .company-name {
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 
 /* About Me */
@@ -134,17 +163,17 @@ h3 {
 }
 
 .about-me-content {
-    padding: 20px;
+    padding: 2rem;
 }
 
 /* Contact Section */
 .contact-icons {
-    font-size: 30px;
-    padding-top: 20px;
+    font-size: 3rem;
+    padding-top: 2rem;
 }
 
 .contact-item {
-    padding: 10px;
+    padding: 1rem;
 }
 
 .icon-link {
@@ -159,10 +188,10 @@ h3 {
 /* Footer Section */
 
 footer {
-    background-color: #66BFBF;
+    background-color: var(--background-dark);
     margin: auto;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
 }
 
 .footer-list {
@@ -171,14 +200,14 @@ footer {
 }
 
 .footer-list-item {
-    padding-top: 5px;
+    padding-top: 0.5rem;
 }
 
 .footer-link {
     width: 100%;
     color: #000;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .footer-link:hover {
@@ -188,12 +217,20 @@ footer {
 
 /* mobile viewport styles */
 @media screen and (max-width: 576px) {
+    .header {
+        position: static;
+    }
+
+    .banner {
+        margin-top: 0;
+    }
+
     .nav-container {
       flex-direction: column;
       align-items: center;
     }
   
-    .nav-link-container {
+    .nav-links-container {
       flex-direction: column;
       align-items: center;
     }
