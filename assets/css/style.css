@@ -105,16 +105,28 @@ body {
 
 .featured-image {
     width: 80%;
+    height: 50rem;
     border: rgb(148, 148, 148) solid 0.3rem;
+    object-fit: cover;
+
+}
+
+.featured-project-card {
+    padding-left: 2rem;
+    text-align: center;
+    object-fit: contain;
 }
 
 .project-card {
     padding-left: 2rem;
     text-align: center;
+    object-fit: contain;
+    width: 33%;
 }
 
 .project-image {
     width: 80%;
+    height: 80%;
     border: rgb(148, 148, 148) solid 0.3rem;
 
 }
@@ -122,6 +134,17 @@ body {
 .featured-image:hover, .project-image:hover {
     transform: scale(1.01);
     box-shadow: -4px 2px 15px 4px #adadad;
+}
+
+.subtitle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle-container i {
+    font-size: 3rem;
 }
 
 .subtitle {
@@ -277,6 +300,10 @@ footer {
 
     .projects-container {
         flex-direction: column;
+    }
+
+    .project-card {
+        width: 100%;
     }
 
     .experience-image {
